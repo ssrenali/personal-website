@@ -1,0 +1,56 @@
+@import "../../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.display {
+    background-color: $creamGreen;
+    position: relative;
+
+    .textBox {
+        //height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 30vh;
+        left: 15vw;
+        right: 15vw;
+        color: $neonGreen;
+        z-index: 1;
+        
+
+        h3 {
+            font-family:'Inter', sans-serif !important;
+            font-weight: 700;
+            font-size: 60px;
+            text-align: center;
+            //color: $neonGreen;
+            max-width: 900px;
+            // text-shadow: 3px 3px $orange;
+            display: table-cell;
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
+
+    .about-me {
+        color: $orange;
+        position: absolute;
+        font-size: 11.5vh;
+        right: 40px;
+        bottom: 10px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+
+        .about-text {
+            font-weight: 750;
+            // text-shadow: 2px 2px #ff0000;
+        }
+
+
+    }
+
+    
+}

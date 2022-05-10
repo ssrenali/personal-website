@@ -1,0 +1,107 @@
+@import "../../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.contact {
+    background-color: $darkGreen;
+    position: absolute;
+
+    .orange-star {
+        content: url("../../assets/orangeContact.svg");
+        position: absolute;
+        bottom: 1px;
+        max-height: 420px;
+        left: 5.5vw;
+        z-index: 0;
+
+    }
+
+    .purple-star {
+        content: url("../../assets/purpleContact.svg");
+        position: absolute;
+        top: 15vh;
+        //max-height: 300px;
+        right: 10vw;
+    }
+
+    .textBox {
+        margin-top: 12vh;
+        margin-left: 10vw;
+
+        .say {
+            color: $creamGreen;
+        }
+
+        h2 {
+            font-size: 12vw;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: $neonGreen;
+        }
+    }
+
+    .emailBox {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+
+        a {
+            width: 250px;
+            font-size: 20px;
+            font-weight: 600;
+            height: 35px;
+            line-height:35px;
+            border-radius: 30px;
+            background-color: $creamGreen;
+            color: $darkGreen;
+            font-family:'Inter', sans-serif !important;
+            text-decoration: none;
+            
+        }
+    }
+
+    .other-contact {
+        left: 0;
+        right: 0;
+        position: inherit;
+        margin-top: 15px;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+        
+
+        a {
+            color: $creamGreen;
+            font-size: 30px;
+            text-decoration: none;
+            font-weight: 650;
+        }
+        img {
+            content: url("../../assets/smallGreenStar.png");
+            height: 17px;
+            margin: 0 5px -1px ;
+        }
+    }
+
+    .copyright {
+        p {
+
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            left: 0;
+            right: 0;
+            position: absolute;
+            bottom: 0;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            text-transform: uppercase;
+            font-family:'Inter', sans-serif !important;
+            color: $creamGreen;
+            font-weight: 500;
+        }
+    }
+}
+

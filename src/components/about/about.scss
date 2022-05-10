@@ -1,0 +1,48 @@
+@import "../../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.about {
+    background-color: $creamGreen;
+    position: relative;
+
+    .about-me {
+        color: $neonGreen;
+        position: absolute;
+        font-size: 20vh;
+        font-weight: 800;
+        right: 40px;
+        bottom: 10px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+
+    }
+    p {
+        position: absolute;
+        width: 700px;
+        font-size: 25px;
+        font-family:'Inter', sans-serif !important;
+        font-weight: 450;
+        color: #275634;
+        margin-left: 10vw;
+        bottom: 10vh;
+        max-width: 70%;
+    }
+
+    .starImg {
+        content: url("../../assets/bigAboutStar.svg");
+        position: absolute;
+        left: 35vw;
+        bottom: 32vh;
+        max-height: 350px;
+    }
+
+    .starImg2 {
+        content: url("../../assets/smallAboutStar.svg");
+        position: absolute;
+        left: 65vw;
+        bottom: 10vh;
+        height: 130px;
+    }
+
+    
+}
