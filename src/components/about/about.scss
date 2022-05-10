@@ -16,6 +16,15 @@
         text-orientation: mixed;
 
     }
+
+    .about-me-horz {
+        color: $neonGreen;
+        position: absolute;
+        font-size: 20vh;
+        font-weight: 800;
+        left: -3vw;
+        top: 70px;
+    }
     p {
         position: absolute;
         width: 700px;
@@ -31,9 +40,9 @@
     .starImg {
         content: url("../../assets/bigAboutStar.svg");
         position: absolute;
-        left: 35vw;
+        left: 40vw;
         bottom: 32vh;
-        max-height: 350px;
+        max-height: 300px;
     }
 
     .starImg2 {

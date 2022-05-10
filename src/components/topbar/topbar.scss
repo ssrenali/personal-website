@@ -24,14 +24,14 @@
                 // width: 25px;
                 span{
                     &:first-child {
-                        background-color: $darkGreen;
+                        background-color: $neonGreen;
                         transform: rotate(35deg);
                     }
                     &:nth-child(2) {
                         opacity: 0;
                     }
                     &:last-child {
-                        background-color: $darkGreen;
+                        background-color: $neonGreen;
                         transform: rotate(-35deg);
                     }
                 }

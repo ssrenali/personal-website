@@ -57,6 +57,13 @@
             color: $darkGreen;
             font-family:'Inter', sans-serif !important;
             text-decoration: none;
+
+            &:hover {
+                width: 300px;
+                font-weight: 750;
+                color: $orange;
+                transition: all 500ms ease;
+            }
             
         }
     }
@@ -76,6 +83,13 @@
             font-size: 30px;
             text-decoration: none;
             font-weight: 650;
+
+            &:hover {
+                transition: 500ms ease;
+                color: $neonGreen;
+                font-weight: 750;
+                
+            }
         }
         img {
             content: url("../../assets/smallGreenStar.png");

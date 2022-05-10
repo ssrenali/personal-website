@@ -12,6 +12,8 @@ function Display() {
         <h3>A FULLSTACK DEVELOPER, DESIGNER, AND ARTIST.</h3>
         <h3 className="uni">SYSTEMS DESIGN ENGINEERING @ UWATERLOO</h3>
       </div>
+      <img className="small-star" alt="" />
+      <img className="big-star" alt="" />
       {/* <div className="about-me">
         <h1 className="about-text">about <br/>me</h1>
         <h1 className="about-text">about <br/>me</h1>

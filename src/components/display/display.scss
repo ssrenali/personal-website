@@ -5,6 +5,22 @@
     background-color: $creamGreen;
     position: relative;
 
+    .small-star{
+        content: url(../../assets/smallDisplay.svg);
+        position: absolute;
+        top: 10vh;
+        max-height: 35vh;
+        
+    }
+
+    .big-star {
+        content: url(../../assets/bigDisplay.svg);
+        position: absolute;
+        bottom: 0;
+        right: 5vw;
+        max-height: 35vh;
+    }
+
     .textBox {
         //height: 100%;
         align-items: center;

@@ -1,5 +1,11 @@
 import curaEarth from '../../assets/curaEarth.jpg'
 
+
+import levi from '../../assets/art/levi.png'
+import spike from '../../assets/art/spike.png'
+import nana from '../../assets/art/nana.png'
+import mundane from '../../assets/art/mundane.jpg'
+
 export const projectsPortfolio = [
     {
       id: 1,
@@ -9,9 +15,9 @@ export const projectsPortfolio = [
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Levi",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        levi,
     },
     {
       id: 3,
@@ -63,27 +69,27 @@ export const projectsPortfolio = [
   export const artworkPortfolio = [
     {
       id: 1,
-      title: "Design Social Media App",
+      title: "Humanity's Strongest Soldier",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        levi,
     },
     {
       id: 2,
-      title: "Design Rampa UI Design",
+      title: "Nana",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        nana,
     },
     {
       id: 3,
-      title: "Design E-commerce Web Design",
+      title: "Mundane",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        mundane
     },
     {
       id: 4,
-      title: "Design Relax Mobile App",
+      title: "Spike",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        spike
     },
     {
       id: 5,

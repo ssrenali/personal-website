@@ -9,6 +9,7 @@ function About() {
       <img className="starImg2" alt="" />
       <div className="textBox">
         <h1 className="about-me">about <br/>me</h1>
+        <h1 className="about-me-horz">about <br/>me</h1>
       </div>
       <div className="descritption">
         <p>
