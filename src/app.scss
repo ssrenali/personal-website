@@ -10,8 +10,7 @@
         &::-webkit-scrollbar {
             display: none;
         }
-
-        @media only screen and (max-width: 768px ){
+        @media only screen and (min-width: 768px) {
             scroll-behavior: smooth;
             scroll-snap-type: y mandatory;
         }
@@ -20,7 +19,8 @@
         > *{
             width: 100vw;
             height: 100vh;
-            @media only screen and (max-width: 768px ){
+            
+            @media only screen and (min-width: 768px) {
                 scroll-snap-align: start;
             }
         }
