@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.e11e5d8b.css",
+    "main.css": "/personal-website/static/css/main.343684e2.css",
     "main.js": "/personal-website/static/js/main.ce2ce729.js",
     "static/media/nightVideo.mp4": "/personal-website/static/media/nightVideo.e4552175b4e4f06e021d.mp4",
     "static/media/levi.png": "/personal-website/static/media/levi.f87f954770ea2146df4a.png",
@@ -20,11 +20,11 @@
     "static/media/smallDisplay.svg": "/personal-website/static/media/smallDisplay.582ad7d0e39b67c2435b.svg",
     "static/media/bigDisplay.svg": "/personal-website/static/media/bigDisplay.3c7b446c09733ae33761.svg",
     "static/media/orangeContact.svg": "/personal-website/static/media/orangeContact.9c6fcd3b507d7d499618.svg",
-    "main.e11e5d8b.css.map": "/personal-website/static/css/main.e11e5d8b.css.map",
+    "main.343684e2.css.map": "/personal-website/static/css/main.343684e2.css.map",
     "main.ce2ce729.js.map": "/personal-website/static/js/main.ce2ce729.js.map"
   },
   "entrypoints": [
-    "static/css/main.e11e5d8b.css",
+    "static/css/main.343684e2.css",
     "static/js/main.ce2ce729.js"
   ]
 }
