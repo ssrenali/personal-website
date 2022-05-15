@@ -10,7 +10,7 @@ function Display() {
       <div className="textBox">
         {/* <h3 className="dark-green">(they/she)</h3> */}
         <h3>A FULLSTACK DEVELOPER, DESIGNER, AND ARTIST.</h3>
-        <h3 className="uni">SYSTEMS DESIGN ENGINEERING @ UWATERLOO</h3>
+        <h3 className="uni">PASSIONATE ABOUT CREATING ENGAGING, DELIGHTFUL EXPERIENCES</h3>
       </div>
       <img className="small-star" alt="" />
       <img className="big-star" alt="" />

@@ -12,19 +12,13 @@ export default function Portfolio() {
 
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
+  const [showDescription, setShowDescription] = useState(false);
+  const [itemIndex, setItemIndex] = useState(0);
   const list = [
     {
       id: 'projects',
       title: 'PROJECTS',
     },
-    // {
-    //   id: 'coding',
-    //   title: 'CODING',
-    // },
-    // {
-    //   id: 'design',
-    //   title: 'DESIGN',
-    // },
     {
       id: 'artwork',
       title: 'ART',
@@ -50,6 +44,7 @@ export default function Portfolio() {
     }
   }, [selected])
 
+
   return (
     <div className="portfolio" id="portfolio">
         <h1>portfolio</h1>
@@ -67,14 +62,22 @@ export default function Portfolio() {
         <img className="purple-star" alt="" />
         <div className="container">
           {data.map ((d) => (
-            <div className="item">
+            <div className="item"
+              onMouseEnter={() => {setShowDescription(true); setItemIndex(d.id)}}
+              onMouseLeave={() => setShowDescription(false)}
+              onClick={d.link}>
             <img
+              className='itemImg'
               src={d.img}
               alt=""/>
             <h3>{d.title}</h3>
           </div>
           ))}
         </div>
+        <h3 className={showDescription ? "description" : "description cover"}>
+          {data.find(items => items.id == itemIndex).description}
+        </h3>
+          
     </div>
   )
 }

@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    //height: 200vh !important;
 
     .green-star {
         content: url(../../assets/portfolioGreen.svg);
@@ -28,7 +29,7 @@
         content: url(../../assets/purplePort.svg);
         position: absolute;
         left: 30vw;
-        bottom: 2vh;
+        bottom: 30vh;
     }
 
     h1 {
@@ -48,7 +49,7 @@
     }
 
     .container {
-        width: 80%;
+        width: 85%;
         max-width: 1300px;
         position: absolute;
         z-index: 2;
@@ -61,8 +62,10 @@
         margin-top: 50vh;
 
         .item {
-            width: 295px;
-            height: 205px;
+            width: 25%;
+            height: 30%;
+            min-width: 295px;
+            min-height: 205px;
             border-radius: 4px;
             margin: 10px 20px;
             display: flex;
@@ -77,25 +80,39 @@
             h3 {
                 position: absolute;
                 font-style: 20px;
-                text-align: center;
-                
-
+                text-align: center;              
             }
 
-            img {
+            .itemImg {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
                 z-index: 1;
             }
+
     
             &:hover {
-                background-color: $orange   ;
+                background-color: $orange;
+                transform: scale(1.05);
                 img {
                     opacity: 0.2;
                     z-index: 0;
                 }
             }
-        }  
+
+            // &.description {
+            //     background-color: $neonGreen;
+            // }
+        }
+    }
+
+    .description {
+        color: $creamGreen;
+        bottom: 10vh;
+        position: absolute;
+
+        &.cover {
+            display: none;
+        }
     }
 }
