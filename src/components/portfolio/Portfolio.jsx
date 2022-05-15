@@ -76,8 +76,7 @@ export default function Portfolio() {
         </div>
         <h3 className={showDescription ? "description" : "description cover"}>
           {data.find(items => items.id == itemIndex).description}
-        </h3>
-          
+        </h3>       
     </div>
   )
 }
