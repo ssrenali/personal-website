@@ -8,8 +8,13 @@
     .small-star{
         content: url(../../assets/smallDisplay.svg);
         position: absolute;
+        max-height: 15vh;
         top: 10vh;
-        max-height: 35vh;
+        
+
+        @media only screen and (min-width: 768px) {
+            max-height: 35vh;
+        }
         
     }
 
@@ -17,8 +22,13 @@
         content: url(../../assets/bigDisplay.svg);
         position: absolute;
         bottom: 0;
-        right: 4vw;
-        max-height: 30vh;
+        right: -25vw;
+        max-height: 25vh;
+
+        @media only screen and (min-width: 768px) {
+            right: 4vw;
+            max-height: 30vh;
+        }
     }
 
     .textBox {
@@ -40,7 +50,7 @@
         h3 {
             font-family:'Inter', sans-serif !important;
             font-weight: 700;
-            font-size: 60px;
+            font-size: 35px;
             text-align: center;
             //color: $neonGreen;
             max-width: 900px;
@@ -48,6 +58,12 @@
             display: table-cell;
             vertical-align: middle;
             display: inline-block;
+
+            @media only screen and (min-width: 768px) {
+                font-size: 60px;
+            }
+
+            
         }
     }
 

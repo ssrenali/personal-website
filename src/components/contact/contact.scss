@@ -2,48 +2,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .contact {
     background-color: $darkGreen;
-    position: absolute;
+    position: relative;
 
     .orange-star {
         content: url("../../assets/orangeContact.svg");
         position: absolute;
-        bottom: 1px;
-        max-height: 420px;
-        left: 5.5vw;
+        max-height: 350px;
+        left: -15vw;
         z-index: 0;
+        bottom: 1px;
 
+        @media only screen and (min-width: 768px) {
+            max-height: 420px;
+            left: 5.5vw;
+        }
     }
 
     .purple-star {
         content: url("../../assets/purpleContact.svg");
         position: absolute;
-        top: 15vh;
+        top: 10vh;
         //max-height: 300px;
-        right: 10vw;
+        right: 0vw;
+        
+
+        @media only screen and (min-width: 768px) {
+            top: 15vh;
+            right: 10vw;
+        }
     }
 
     .textBox {
-        margin-top: 12vh;
-        margin-left: 10vw;
+        margin-top: 25vh;
+        margin-left: 8vw;
+        z-index: 2;
+        position: absolute;
+
+        @media only screen and (min-width: 768px) {
+            margin-left: 10vw;
+            margin-top: 12vh;
+          
+        }
 
         .say {
             color: $creamGreen;
         }
 
         h2 {
-            font-size: 12vw;
+            font-size: 14vw;
             font-weight: 900;
             text-transform: uppercase;
             color: $neonGreen;
+
+            @media only screen and (min-width: 768px) {
+                font-size: 12vw;
+            }
         }
     }
 
     .emailBox {
-        margin-top: 40px;
+        margin-top: 46vh;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+        bottom: 0;
+
+        @media only screen and (min-width: 768px) {
+            margin-top: 70vh;
+        }
+        
         
 
         a {
@@ -107,7 +136,7 @@
             left: 0;
             right: 0;
             position: absolute;
-            bottom: 0;
+            bottom: 7vh;
             align-items: center;
             justify-content: center;
             text-align: center;
@@ -115,6 +144,11 @@
             font-family:'Inter', sans-serif !important;
             color: $creamGreen;
             font-weight: 500;
+            max-width: 70%;
+
+            @media only screen and (min-width: 768px) {
+                bottom: 0; 
+            }
         }
     }
 }

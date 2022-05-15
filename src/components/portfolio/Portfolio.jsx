@@ -27,12 +27,6 @@ export default function Portfolio() {
 
   useEffect(() => {
     switch(selected) {
-      // case "featured":
-      //   setData(featuredPortfolio);
-      //   break;
-      // case "apps":
-      //   setData(appsPortfolio);
-      //   break;
       case "projects":
         setData(projectsPortfolio);
         break;
@@ -43,7 +37,6 @@ export default function Portfolio() {
         setData(projectsPortfolio);
     }
   }, [selected])
-
 
   return (
     <div className="portfolio" id="portfolio">
@@ -65,18 +58,23 @@ export default function Portfolio() {
             <div className="item"
               onMouseEnter={() => {setShowDescription(true); setItemIndex(d.id)}}
               onMouseLeave={() => setShowDescription(false)}
-              onClick={d.link}>
-            <img
-              className='itemImg'
-              src={d.img}
-              alt=""/>
-            <h3>{d.title}</h3>
+            >           
+              <img
+                className='itemImg'
+                src={d.img}
+                alt=""/>
+              {/* <h3>{d.title}</h3>  */}
+              <a href={d.link}>{d.title}</a>             
           </div>
           ))}
         </div>
-        <h3 className={showDescription ? "description" : "description cover"}>
-          {data.find(items => items.id == itemIndex).description}
-        </h3>       
+        
+        {itemIndex ? 
+         <h3 className={showDescription ? "description" : "description cover"}>
+          {data.find(item => item.id === itemIndex).description}
+         </h3> : null
+        }
+             
     </div>
   )
 }
