@@ -22,8 +22,8 @@
         content: url(../../assets/bigDisplay.svg);
         position: absolute;
         bottom: 0;
-        right: -25vw;
-        max-height: 25vh;
+        right: -20vw;
+        max-height: 20vh;
 
         @media only screen and (min-width: 768px) {
             right: 4vw;
@@ -50,7 +50,7 @@
         h3 {
             font-family:'Inter', sans-serif !important;
             font-weight: 700;
-            font-size: 35px;
+            font-size: 33px;
             text-align: center;
             //color: $neonGreen;
             max-width: 900px;

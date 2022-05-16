@@ -14,11 +14,13 @@
         bottom: 0;
         writing-mode: vertical-rl;
         text-orientation: mixed;
+        display: none;
 
         @media only screen and (min-width: 768px) {
             font-size: 20vh;
             right: 40px;
             bottom: 10px;
+            display: block;
         }
     }
 
@@ -32,6 +34,7 @@
 
         @media only screen and (min-width: 768px) {
             font-size: 20vh;
+            top: 70px;
         }
     }
     .description {
@@ -42,7 +45,7 @@
         font-weight: 600;
         color: #275634;
         margin-left: 10vw;
-        bottom: 12vh;
+        bottom: 7vh;
         max-width: 70%;
 
         @media only screen and (min-width: 768px) {
@@ -54,8 +57,8 @@
     .starImg {
         content: url("../../assets/bigAboutStar.svg");
         position: absolute;
-        max-height: 150px;
-        left: 60vw;
+        max-height: 100px;
+        left: 65vw;
         bottom: 63vh;
        
         @media only screen and (min-width: 768px) {
