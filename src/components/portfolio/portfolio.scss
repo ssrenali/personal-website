@@ -72,8 +72,8 @@
     }
 
     .container {
-        width: 85%;
-        max-width: 1300px;
+        width: 90%;
+        max-width: 1400px;
         position: absolute;
         z-index: 2;
         height: 500px;
@@ -85,7 +85,7 @@
         margin-top: 30vh;
 
         @media only screen and (min-width: 768px) {
-            height: 230px;
+            height: 270px;
             margin-top: 50vh;
         }
 
@@ -106,8 +106,9 @@
             scroll-snap-type: y mandatory;
 
             @media only screen and (min-width: 768px) {
-                min-width: 295px;
-                min-height: 205px;
+                min-width: 350px;
+                min-height: 250px;
+                margin: 10px;
             }
                 
             a {
