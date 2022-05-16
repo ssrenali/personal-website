@@ -1,32 +1,53 @@
-import curaEarth from '../../assets/curaEarth.jpg'
+import curaEarth from '../../assets/curaEarth.png'
+import personalWebsite from '../../assets/personalWebsite.png'
+import quest from  '../../assets/quest.png'
 
-
+import dulcet from '../../assets/art/dulcet.png'
+import chinatown from '../../assets/art/chinatown.png'
+import train from '../../assets/art/train.png'
+import aot from '../../assets/art/aot.png'
+import csm from '../../assets/art/csm.png'
+import demon from '../../assets/art/demon.png'
+import dissolve from '../../assets/art/dissolve.png'
+import fancy from '../../assets/art/fancy.png'
+import genshin from '../../assets/art/genshin.png'
+import house from '../../assets/art/house.png'
+import jazz from '../../assets/art/jazz.png'
+import jjk from '../../assets/art/jjk.png'
 import levi from '../../assets/art/levi.png'
-import spike from '../../assets/art/spike.png'
+import mugen from '../../assets/art/mugen.png'
+import mundane from '../../assets/art/mundane.png'
 import nana from '../../assets/art/nana.png'
-import mundane from '../../assets/art/mundane.jpg'
+import spike from '../../assets/art/spike.png'
 
 export const projectsPortfolio = [
     {
       id: 1,
-      title: "Cura Earth",
-      img: curaEarth,
-      description: "A task generator that encourages and promotes accessible environmental activism for all",
-      link: "https://devpost.com/software/cura-planet"
+      title: "Quest Mobile Case Study",
+      brief: "UI/UX",
+      tools: "Tools: Figma",
+      img: quest,
+      description: "Click to view the process of redesigning UWaterloo's student information center!",
+      link: "https://chambray-block-f4f.notion.site/Quest-Mobile-Case-Study-feb9febd40bf4ead87b4fe959fb014b6"
     },
     {
       id: 2,
-      title: "Levi",
+      title: "Personal Website",
+      brief: "Dev + UI/UX",
+      tools: "Tools: Figma + React",
       img:
-        levi,
-      description: "yurrrr"
+        personalWebsite,
+      description: "Creating a portfolio space using React that also showcases my personal style",
+      link: "https://ssrenali.github.io/personal-website/"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-      description : "helgjwieogjoaiwejga",
+      title: "Cura Earth",
+      brief: "UI/UX",
+      tools: "Tools: Figma",
+      img: curaEarth,
+      description : "A task generator that encourages and promotes accessible environmental activism for all",
+      link: "https://devpost.com/software/cura-planet"
     }
   ];
   
@@ -72,39 +93,57 @@ export const projectsPortfolio = [
   export const artworkPortfolio = [
     {
       id: 1,
-      title: "Humanity's Strongest Soldier",
-      img:
-        levi,
+      title: "\"Dulcet\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: dulcet,
+      artImg: dulcet,
+      link: 'https://www.artstation.com/artwork/Vgav8n'
     },
     {
       id: 2,
-      title: "Nana",
-      img:
-        nana,
+      title: "\"Jazz & Coffee\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: jazz,
+      artImg: dulcet,
+      link: "https://www.artstation.com/"
     },
     {
       id: 3,
-      title: "Mundane",
-      img:
-        mundane
+      title: "\"Nana\"",
+      brief: "8.5 x 11 in",
+      tools: "Procreate",
+      img: nana,
+      artImg: dulcet,
+      link: "https://www.artstation.com/"
     },
     {
       id: 4,
-      title: "Spike",
-      img:
-        spike
+      title: "\"Chinatown\"",
+      brief: "8.5 x 11 in",
+      tools: "Procreate",
+      img: chinatown,
+      link: 'https://www.artstation.com/artwork/qQYwly'
+      
     },
     {
       id: 5,
-      title: "Design Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "\"Survey Corps\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: aot,
+      artImg: aot,
+      link: 'https://www.artstation.com/artwork/G8VKN3'
     },
     {
       id: 6,
-      title: "Design Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "\"Tokyo Train\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: train,
+      artImg: dulcet,
+      link: 'https://www.artstation.com/artwork/5BoqxP'
     }
   ];
   

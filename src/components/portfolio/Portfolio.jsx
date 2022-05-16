@@ -7,13 +7,18 @@ import {
   designPortfolio,
   artworkPortfolio
 } from "./data";
+import ArtPopUp from "../art popup/ArtPopUp";
 
 export default function Portfolio() {
 
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("projects");
   const [data, setData] = useState([]);
   const [showDescription, setShowDescription] = useState(false);
   const [itemIndex, setItemIndex] = useState(0);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+ 
+
   const list = [
     {
       id: 'projects',
@@ -37,6 +42,10 @@ export default function Portfolio() {
         setData(projectsPortfolio);
     }
   }, [selected])
+
+  const togglePopUp = () => {
+    setIsPopupOpen(!isPopupOpen);
+  }
 
   return (
     <div className="portfolio" id="portfolio">
@@ -63,8 +72,14 @@ export default function Portfolio() {
                 className='itemImg'
                 src={d.img}
                 alt=""/>
-              {/* <h3>{d.title}</h3>  */}
-              <a href={d.link}>{d.title}</a>             
+              {/* {selected === "projects" ? <a href={d.link}>{d.title}</a> : <a onClick={togglePopUp}>{d.title}</a>} */}
+              <a href={d.link}>{d.title}</a>
+              <h3 className="brief">{d.brief}</h3>              
+              <h3 className="tools">{d.tools}</h3>
+              {isPopupOpen && <ArtPopUp
+                handleClose={togglePopUp}
+                content={d.artImg}
+              />}       
           </div>
           ))}
         </div>

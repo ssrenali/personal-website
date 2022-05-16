@@ -20,7 +20,7 @@ export default function Contact() {
           <img className="small-star" alt="" />
           <a href="https://www.etsy.com/shop/aestronart">ETSY</a>
           <img className="small-star" alt="" />
-          <a href="https://www.figma.com/proto/6NzkFBYAxdMoMRyMSUjp0N/design-resume?scaling=min-zoom&page-id=0%3A1&node-id=2%3A2">RESUME</a>
+          <a href="https://www.figma.com/proto/eowYZpuqqUpv9zoBCo7h4J/resume?node-id=2%3A5&scaling=min-zoom&page-id=0%3A1">RESUME</a>
       </div>
       <div className="copyright">
         <p>
