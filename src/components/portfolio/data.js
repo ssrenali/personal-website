@@ -1,24 +1,25 @@
-import curaEarth from '../../assets/curaEarth.png'
-import personalWebsite from '../../assets/personalWebsite.png'
-import quest from  '../../assets/quest.png'
+import curaEarth from '../../assets/curaEarth.svg'
+import personalWebsite from '../../assets/personalWebsite.svg'
+import quest from  '../../assets/quest.svg'
 
-import dulcet from '../../assets/art/dulcet.png'
-import chinatown from '../../assets/art/chinatown.png'
-import train from '../../assets/art/train.png'
-import aot from '../../assets/art/aot.png'
-import csm from '../../assets/art/csm.png'
-import demon from '../../assets/art/demon.png'
-import dissolve from '../../assets/art/dissolve.png'
-import fancy from '../../assets/art/fancy.png'
-import genshin from '../../assets/art/genshin.png'
-import house from '../../assets/art/house.png'
-import jazz from '../../assets/art/jazz.png'
-import jjk from '../../assets/art/jjk.png'
-import levi from '../../assets/art/levi.png'
-import mugen from '../../assets/art/mugen.png'
-import mundane from '../../assets/art/mundane.png'
-import nana from '../../assets/art/nana.png'
-import spike from '../../assets/art/spike.png'
+import dulcet from '../../assets/art/dulcet.svg'
+import chinatown from '../../assets/art/chinatown.svg'
+import train from '../../assets/art/train.svg'
+import aot from '../../assets/art/aot.svg'
+import csm from '../../assets/art/csm.svg'
+import demon from '../../assets/art/demon.svg'
+import dissolve from '../../assets/art/dissolve.svg'
+import fancy from '../../assets/art/fancy.svg'
+import genshin from '../../assets/art/genshin.svg'
+import grocery from '../../assets/art/grocery.svg'
+import house from '../../assets/art/house.svg'
+import jazz from '../../assets/art/jazz.svg'
+import jjk from '../../assets/art/jjk.svg'
+import levi from '../../assets/art/levi.svg'
+import mugen from '../../assets/art/mugen.svg'
+import mundane from '../../assets/art/mundane.svg'
+import nana from '../../assets/art/nana.svg'
+import spike from '../../assets/art/spike.svg'
 
 export const projectsPortfolio = [
     {
@@ -98,7 +99,7 @@ export const projectsPortfolio = [
       tools: "Photoshop",
       img: dulcet,
       artImg: dulcet,
-      link: 'https://www.artstation.com/artwork/Vgav8n'
+      link: 'https://aestronart.artstation.com/projects/Vgav8n'
     },
     {
       id: 2,
@@ -107,7 +108,7 @@ export const projectsPortfolio = [
       tools: "Photoshop",
       img: jazz,
       artImg: dulcet,
-      link: "https://www.artstation.com/"
+      link: "https://aestronart.artstation.com/projects/EageD2"
     },
     {
       id: 3,
@@ -116,7 +117,7 @@ export const projectsPortfolio = [
       tools: "Procreate",
       img: nana,
       artImg: dulcet,
-      link: "https://www.artstation.com/"
+      link: "https://www.artstation.com/aestronart"
     },
     {
       id: 4,
@@ -124,7 +125,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Procreate",
       img: chinatown,
-      link: 'https://www.artstation.com/artwork/qQYwly'
+      link: 'https://aestronart.artstation.com/projects/qQYwly'
       
     },
     {
@@ -134,7 +135,7 @@ export const projectsPortfolio = [
       tools: "Photoshop",
       img: aot,
       artImg: aot,
-      link: 'https://www.artstation.com/artwork/G8VKN3'
+      link: 'https://aestronart.artstation.com/projects/G8VKN3'
     },
     {
       id: 6,
@@ -143,7 +144,115 @@ export const projectsPortfolio = [
       tools: "Photoshop",
       img: train,
       artImg: dulcet,
-      link: 'https://www.artstation.com/artwork/5BoqxP'
+      link: 'https://aestronart.artstation.com/projects/5BoqxP'
+    },
+    {
+      id: 7,
+      title: "\"Grocery\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: grocery,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/2q4Eay'
+    },
+    {
+      id: 8,
+      title: "\"Cursed Technique\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: jjk,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/03rGm5'
+    },
+    {
+      id: 9,
+      title: "\"Dissolve\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: dissolve,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/NGB6z5'
+    },
+    {
+      id: 10,
+      title: "\"Chainsaw Trio\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: csm,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/B3J5R8'
+    },
+    {
+      id: 11,
+      title: "\"Demon Slayer\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: demon,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/Ar5Rez'
+    },
+    {
+      id: 12,
+      title: "\"Ackerman\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: levi,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/nELmy9'
+    },
+    {
+      id: 13,
+      title: "\"Adepti and Archon\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: genshin,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/'
+    },
+    {
+      id: 14,
+      title: "\"Space Cowboy\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: spike,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/'
+    },
+    {
+      id: 15,
+      title: "\"Mugen Revisited\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: mugen,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/mDWPbZ'
+    },
+    {
+      id: 16,
+      title: "\"Welcome\"",
+      brief: "8.5 x 11 in",
+      tools: "Watercolour on paper",
+      img: house,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/'
+    },
+    {
+      id: 17,
+      title: "\"Mundane\"",
+      brief: "8.5 x 11 in",
+      tools: "Pencil on paper",
+      img: mundane,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/'
+    },
+    {
+      id: 18,
+      title: "\"Fancy\"",
+      brief: "8.5 x 11 in",
+      tools: "Photoshop",
+      img: fancy,
+      artImg: dulcet,
+      link: 'https://aestronart.artstation.com/projects/d89gbx'
     }
   ];
   

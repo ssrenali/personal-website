@@ -1,6 +1,26 @@
 @import "../../global.scss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $creamGreen; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $orange; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $purple; 
+}
+
 .portfolio {
     background-color: $darkGreen;
     display: flex;
@@ -88,80 +108,93 @@
             height: 270px;
             margin-top: 50vh;
         }
-
-        .item {
-            width: 30%;
-            height: 35%;
-            min-width: 230px;
-            min-height: 140px;
-            border-radius: 4px;
-            margin: 10px 20px;
+        
+        .item-link {
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
             position: relative;
-            transition: all .5s ease;
-            cursor: pointer;
-            scroll-snap-type: y mandatory;
+            width: 30%;
+            height: 100%;
+            min-width: 230px;
+            min-height: 140px;
 
-            @media only screen and (min-width: 768px) {
-                min-width: 350px;
-                min-height: 250px;
-                margin: 10px;
-            }
-                
-            a {
+            .item {
+                // width: 30%;
+                height: 35%;
+                min-width: 230px;
+                min-height: 140px;
+                border-radius: 4px;
+                margin: 10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
                 position: absolute;
-                margin-bottom: 80px;
-                font-size: 22px;
-                text-align: center;               
-                text-decoration: none; 
-                font-weight: 600;
-                color: $creamGreen;
-                transition: font-weight 500ms ease, color 500ms ease;
-                max-width: 250px;
-               
-
-                &:hover {
-                    color: $neonGreen;
-                    font-weight: 700;
-                }             
-            }
-
-            h3 {
-                position: absolute;
-                font-size: 16px;
-                font-weight: 600;
-                text-transform: uppercase;
-                font-family: 'Inter', sans-serif !important;
-                color: $creamGreen;
-                margin-bottom: -20px;
-
-                &.tools {
-                  margin-bottom: -80px;  
-                }
-            }    
-
-            
-
-            .itemImg {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                z-index: 1;
-            }
-
+                transition: all .5s ease;
+                cursor: pointer;
+                scroll-snap-type: y mandatory;
     
-            &:hover {
-                background-color: $orange;
-                transform: scale(1.05);
-                img {
-                    opacity: 0.1;
-                    z-index: 0;
+                @media only screen and (min-width: 768px) {
+                    min-width: 350px;
+                    min-height: 250px;
+                    margin: 10px;
+                }
+                    
+                a {
+                    position: absolute;
+                    margin-bottom: 80px;
+                    font-size: 22px;
+                    text-align: center;               
+                    text-decoration: none; 
+                    font-weight: 600;
+                    color: $creamGreen;
+                    transition: font-weight 500ms ease, color 500ms ease;
+                    max-width: 250px;
+                   
+    
+                    &:hover {
+                        color: $neonGreen;
+                        font-weight: 700;
+                    }             
+                }
+    
+                h3 {
+                    position: absolute;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-family: 'Inter', sans-serif !important;
+                    color: $creamGreen;
+                    margin-bottom: -20px;
+    
+                    &.tools {
+                      margin-bottom: -80px;  
+                    }
+                }    
+    
+                
+    
+                .itemImg {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    z-index: 1;
+                }
+    
+        
+                &:hover {
+                    background-color: $orange;
+                    transform: scale(1.05);
+                    img {
+                        opacity: 0.1;
+                        z-index: 0;
+                    }
                 }
             }
         }
+
+        
     }
 
     .description {

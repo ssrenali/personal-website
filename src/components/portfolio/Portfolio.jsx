@@ -64,7 +64,8 @@ export default function Portfolio() {
         <img className="purple-star" alt="" />
         <div className="container">
           {data.map ((d) => (
-            <div className="item"
+            <a className="item-link" href={d.link}>
+              <div className="item"
               onMouseEnter={() => {setShowDescription(true); setItemIndex(d.id)}}
               onMouseLeave={() => setShowDescription(false)}
             >           
@@ -81,6 +82,8 @@ export default function Portfolio() {
                 content={d.artImg}
               />}       
           </div>
+            </a>
+            
           ))}
         </div>
         
