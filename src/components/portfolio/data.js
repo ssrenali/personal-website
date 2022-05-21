@@ -117,7 +117,7 @@ export const projectsPortfolio = [
       tools: "Procreate",
       img: nana,
       artImg: dulcet,
-      link: "https://www.artstation.com/aestronart"
+      link: "https://aestronart.artstation.com/projects/r9d89L"
     },
     {
       id: 4,
@@ -216,7 +216,7 @@ export const projectsPortfolio = [
       tools: "Photoshop",
       img: spike,
       artImg: dulcet,
-      link: 'https://aestronart.artstation.com/'
+      link: 'https://aestronart.artstation.com/projects/xYK5YR'
     },
     {
       id: 15,
@@ -234,7 +234,7 @@ export const projectsPortfolio = [
       tools: "Watercolour on paper",
       img: house,
       artImg: dulcet,
-      link: 'https://aestronart.artstation.com/'
+      link: 'https://aestronart.artstation.com/projects/8wLJwx'
     },
     {
       id: 17,
@@ -243,7 +243,7 @@ export const projectsPortfolio = [
       tools: "Pencil on paper",
       img: mundane,
       artImg: dulcet,
-      link: 'https://aestronart.artstation.com/'
+      link: 'https://aestronart.artstation.com/projects/JeBLez'
     },
     {
       id: 18,

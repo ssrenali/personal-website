@@ -92,8 +92,8 @@
     }
 
     .container {
-        width: 90%;
-        max-width: 1400px;
+        width: 95%;
+        max-width: 1600px;
         position: absolute;
         z-index: 2;
         height: 500px;
@@ -105,8 +105,8 @@
         margin-top: 30vh;
 
         @media only screen and (min-width: 768px) {
-            height: 270px;
-            margin-top: 50vh;
+            height: 300px;
+            margin-top: 49vh;
         }
         
         .item-link {
@@ -116,14 +116,14 @@
             position: relative;
             width: 30%;
             height: 100%;
-            min-width: 230px;
-            min-height: 140px;
+            //min-width: 230px;
+            //min-height: 140px;
 
             .item {
-                // width: 30%;
+                width: 30%;
                 height: 35%;
-                min-width: 230px;
-                min-height: 140px;
+                //min-width: 230px;
+                //min-height: 140px;
                 border-radius: 4px;
                 margin: 10px 20px;
                 display: flex;
@@ -134,6 +134,8 @@
                 transition: all .5s ease;
                 cursor: pointer;
                 scroll-snap-type: y mandatory;
+                border: 5px solid $orange;
+               // background: linear-gradient(to top left, $orange, $neonGreen);
     
                 @media only screen and (min-width: 768px) {
                     min-width: 350px;
