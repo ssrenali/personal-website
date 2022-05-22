@@ -7,7 +7,6 @@ import {
   designPortfolio,
   artworkPortfolio
 } from "./data";
-import ArtPopUp from "../art popup/ArtPopUp";
 
 export default function Portfolio() {
 
