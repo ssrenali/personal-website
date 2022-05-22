@@ -28,7 +28,7 @@ export const projectsPortfolio = [
       brief: "UI/UX",
       tools: "Tools: Figma",
       img: quest,
-      description: "Click to view the process of redesigning UWaterloo's student information center!",
+      description: "A case study redesigning UWaterloo's student portal ᕦ(ò_óˇ)ᕤ",
       link: "https://chambray-block-f4f.notion.site/Quest-Mobile-Case-Study-feb9febd40bf4ead87b4fe959fb014b6"
     },
     {
@@ -38,7 +38,7 @@ export const projectsPortfolio = [
       tools: "Tools: Figma + React",
       img:
         personalWebsite,
-      description: "Creating a portfolio space using React that also showcases my personal style",
+      description: "A portfolio space created using React that showcases my personal style! ╰(✿´⌣`✿)╯♡",
       link: "https://ssrenali.github.io/personal-website/"
     },
     {
@@ -47,7 +47,7 @@ export const projectsPortfolio = [
       brief: "UI/UX",
       tools: "Tools: Figma",
       img: curaEarth,
-      description : "A task generator that encourages and promotes accessible environmental activism for all",
+      description : "A task generator that encourages accessible environmental activism. ʕಠಿᴥಠʔ",
       link: "https://devpost.com/software/cura-planet"
     }
   ];
@@ -59,7 +59,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: dulcet,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (づ ￣ ³￣)づ",
       link: 'https://aestronart.artstation.com/projects/Vgav8n'
     },
     {
@@ -68,7 +68,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: jazz,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (♡´౪`♡)",
       link: "https://aestronart.artstation.com/projects/EageD2"
     },
     {
@@ -77,7 +77,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Procreate",
       img: nana,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ( ˊᵕˋ )°♡.",
       link: "https://aestronart.artstation.com/projects/r9d89L"
     },
     {
@@ -86,7 +86,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Procreate",
       img: chinatown,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (・´з`・)",
       link: 'https://aestronart.artstation.com/projects/qQYwly'
       
     },
@@ -96,7 +96,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: aot,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! U・ᴥ・U",
       link: 'https://aestronart.artstation.com/projects/G8VKN3'
     },
     {
@@ -105,7 +105,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: train,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (◌˘◡˘◌)",
       link: 'https://aestronart.artstation.com/projects/5BoqxP'
     },
     {
@@ -114,7 +114,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: grocery,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ʕ￫ᴥ￩ʔ",
       link: 'https://aestronart.artstation.com/projects/2q4Eay'
     },
     {
@@ -123,7 +123,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: jjk,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ╰(. •́ ͜ʖ •̀ .)╯",
       link: 'https://aestronart.artstation.com/projects/03rGm5'
     },
     {
@@ -132,7 +132,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: dissolve,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ʕ·͡ᴥ·ʔ",
       link: 'https://aestronart.artstation.com/projects/NGB6z5'
     },
     {
@@ -141,7 +141,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: csm,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (✿´‿`)",
       link: 'https://aestronart.artstation.com/projects/B3J5R8'
     },
     {
@@ -150,7 +150,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: demon,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ヾ(´･ω･｀)",
       link: 'https://aestronart.artstation.com/projects/Ar5Rez'
     },
     {
@@ -159,7 +159,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: levi,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (~￣³￣)~",
       link: 'https://aestronart.artstation.com/projects/nELmy9'
     },
     {
@@ -168,7 +168,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: genshin,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ♡´･ᴗ･`♡",
       link: 'https://aestronart.artstation.com/'
     },
     {
@@ -177,7 +177,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: spike,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ♥(ˆ⌣ˆԅ)",
       link: 'https://aestronart.artstation.com/projects/xYK5YR'
     },
     {
@@ -186,7 +186,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: mugen,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (`･ω･´)",
       link: 'https://aestronart.artstation.com/projects/mDWPbZ'
     },
     {
@@ -195,7 +195,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Watercolour on paper",
       img: house,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (ᵔᴥᵔ)",
       link: 'https://aestronart.artstation.com/projects/8wLJwx'
     },
     {
@@ -204,7 +204,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Pencil on paper",
       img: mundane,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! ∠(･`_´･ )",
       link: 'https://aestronart.artstation.com/projects/JeBLez'
     },
     {
@@ -213,7 +213,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: fancy,
-      description: "Click to check it out on ArtStation!",
+      description: "Click to check it out on ArtStation! (╯°o°)ᕗ",
       link: 'https://aestronart.artstation.com/projects/d89gbx'
     }
   ];

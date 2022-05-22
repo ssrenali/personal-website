@@ -201,12 +201,10 @@
 
     .description {
         color: $darkGreen;
-        bottom: 10vh;
         position: absolute;
         font-family: 'Inter', sans-serif !important;
         font-weight: 600;
-
-       
+        bottom: 7vh;      
         
         @media only screen and (max-width: 768px) {
             display: none;
