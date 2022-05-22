@@ -15,12 +15,12 @@ function About() {
       </div>
       <div className="descriptionContainer">
         <p className="description">
-          Hello, I'm Serena (they/she)!
-          I am passionate about tackling problems and creating engaging, delightful experiences through coding and design.
+          Hello, I'm Serena <a className="green-text">(they/she)</a>!
+          I'm a Systems Design Engineering student at UWaterloo. Previously, I was a Web Developer at AutoTrader and am currently looking for Fall 2022 internships.
           {/* <br/>
           Outside of work and school, I love drawing, thrifting and fashion. I am also an avid music listener who creates probably too many playlists. If you ever see me, I will most likely have coloured hair and am very willing to talk about anything! */}
           <br/>
-          Currently I am studying at the University of Waterloo as a Systems Design Engineering student. Previously, I was a Web Developer at AutoTrader and am currently looking for Fall 2022 internships.
+          I love creating meaningful solutions through design and code. I am passionate about designing for diversity, equity, and inclusion. Find something that piques your interest? <a href="#contact" className="say-hi">Say hi!</a>
         </p>
       </div>
     </div>

@@ -29,6 +29,10 @@
             font-size: 20vh;
             right: 40px;
             bottom: 10px;
+            
+        }
+
+        @media only screen and (min-width: 1115px) {
             display: block;
         }
     }
@@ -61,6 +65,27 @@
             font-size: 25px;
             bottom: 10vh;
         }
+
+        .green-text {
+            font-size: 24px;
+            font-weight: 600;
+            color: $neonGreen;
+            font-family:'Inter', sans-serif !important;
+
+        }
+
+        .say-hi {
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 600;
+            color: $neonGreen;
+            font-family:'Inter', sans-serif !important;
+            //transition: all 500ms ease;
+
+            &:hover {
+                font-weight: 800;
+            }
+        }
     }
 
     .starImg {
@@ -71,10 +96,12 @@
         bottom: 63vh;
        
         @media only screen and (min-width: 768px) {
-            left: 40vw;
-            bottom: 32vh;
-            max-height: 300px;
+            left: 45vw;
+            bottom: 35vh;
+            max-height: 230px;
         }
+
+
     }
 
     .starImg2 {
