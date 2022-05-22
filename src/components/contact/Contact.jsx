@@ -11,7 +11,7 @@ export default function Contact() {
         <h2>hello!</h2>
       </div>
       <div className="emailBox">
-        <a class="button" href="mailto:s868li@uwaterloo.ca">E-MAIL ME</a>
+        <a className="button" href="mailto:s868li@uwaterloo.ca">E-MAIL ME</a>
       </div>
       <div className="other-contact">
           <a href="https://www.linkedin.com/in/serena-li-03/">LINKEDIN</a>

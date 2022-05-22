@@ -52,45 +52,6 @@ export const projectsPortfolio = [
     }
   ];
   
-  export const appsPortfolio = [
-    {
-      id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-    }
-  ];
-  
-  export const designPortfolio = [
-    {
-      id: 1,
-      title: "Mobile Social Media App",
-      img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    }
-  ];
-  
   export const artworkPortfolio = [
     {
       id: 1,
@@ -98,7 +59,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: dulcet,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/Vgav8n'
     },
     {
@@ -107,7 +68,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: jazz,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: "https://aestronart.artstation.com/projects/EageD2"
     },
     {
@@ -116,7 +77,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Procreate",
       img: nana,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: "https://aestronart.artstation.com/projects/r9d89L"
     },
     {
@@ -125,6 +86,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Procreate",
       img: chinatown,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/qQYwly'
       
     },
@@ -134,7 +96,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: aot,
-      artImg: aot,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/G8VKN3'
     },
     {
@@ -143,7 +105,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: train,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/5BoqxP'
     },
     {
@@ -152,7 +114,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: grocery,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/2q4Eay'
     },
     {
@@ -161,7 +123,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: jjk,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/03rGm5'
     },
     {
@@ -170,7 +132,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: dissolve,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/NGB6z5'
     },
     {
@@ -179,7 +141,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: csm,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/B3J5R8'
     },
     {
@@ -188,7 +150,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: demon,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/Ar5Rez'
     },
     {
@@ -197,7 +159,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: levi,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/nELmy9'
     },
     {
@@ -206,7 +168,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: genshin,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/'
     },
     {
@@ -215,7 +177,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: spike,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/xYK5YR'
     },
     {
@@ -224,7 +186,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: mugen,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/mDWPbZ'
     },
     {
@@ -233,7 +195,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Watercolour on paper",
       img: house,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/8wLJwx'
     },
     {
@@ -242,7 +204,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Pencil on paper",
       img: mundane,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/JeBLez'
     },
     {
@@ -251,7 +213,7 @@ export const projectsPortfolio = [
       brief: "8.5 x 11 in",
       tools: "Photoshop",
       img: fancy,
-      artImg: dulcet,
+      description: "Click to check it out on ArtStation!",
       link: 'https://aestronart.artstation.com/projects/d89gbx'
     }
   ];

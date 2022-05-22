@@ -56,6 +56,7 @@ export default function Portfolio() {
               title={item.title}
               active={selected === item.id}
               setSelected={setSelected}
+              setItemIndex={setItemIndex}
               id={item.id}/>
           ))}
         </ul>
@@ -64,7 +65,7 @@ export default function Portfolio() {
         <img className="purple-star" alt="" />
         <div className="container">
           {data.map ((d) => (
-            <a className="item-link" href={d.link}>
+            <a key={data.id} className="item-link" href={d.link}>
               <div className="item"
               onMouseEnter={() => {setShowDescription(true); setItemIndex(d.id)}}
               onMouseLeave={() => setShowDescription(false)}
@@ -73,22 +74,17 @@ export default function Portfolio() {
                 className='itemImg'
                 src={d.img}
                 alt=""/>
-              {/* {selected === "projects" ? <a href={d.link}>{d.title}</a> : <a onClick={togglePopUp}>{d.title}</a>} */}
-              <a href={d.link}>{d.title}</a>
+              <h1 className="item-title">{d.title}</h1>
               <h3 className="brief">{d.brief}</h3>              
               <h3 className="tools">{d.tools}</h3>
-              {isPopupOpen && <ArtPopUp
-                handleClose={togglePopUp}
-                content={d.artImg}
-              />}       
           </div>
             </a>
             
           ))}
         </div>
         
-        {itemIndex ? 
-         <h3 className={showDescription ? "description" : "description cover"}>
+        {itemIndex && showDescription ? 
+         <h3 className="description">
           {data.find(item => item.id === itemIndex).description}
          </h3> : null
         }
