@@ -1,10 +1,12 @@
 import "./about.scss"
+import night2 from '../../assets/night2.mp4';
 
 import React from 'react'
 
 function About() {
   return (
     <div className="about" id="about">
+       <video autoPlay muted loop id="flowerVideo" src={night2}></video>
       <img className="starImg" alt="" />
       <img className="starImg2" alt="" />
       <div className="textBox">

@@ -5,6 +5,14 @@
     background-color: $darkGreen;
     position: relative;
 
+    #flowerVideo {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 0.2;
+    }
+
     .small-star{
         content: url(../../assets/smallDisplay.svg);
         position: absolute;

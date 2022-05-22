@@ -2,8 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .about {
-    background-color: $creamGreen;
+    background-color: $darkGreen;
     position: relative;
+
+    #flowerVideo {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 0.2;
+    }
+
 
     .about-me {
         color: $neonGreen;
@@ -43,7 +52,7 @@
         font-size: 24px;
         font-family:'Inter', sans-serif !important;
         font-weight: 600;
-        color: #275634;
+        color: $creamGreen;
         margin-left: 10vw;
         bottom: 7vh;
         max-width: 70%;
