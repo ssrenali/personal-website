@@ -1,66 +1,86 @@
 @import "../../global.scss";
 
+
+.smallGreenStar {
+    margin-top: 6rem;
+    height: 20%;
+    top:0;
+}
 .intro {
-    background-color: $darkGreen;
-    //display: flex;
-    width: 100%;
-    height: 100%;
-    position: relative;
-
-    .mobileName {
-        &.orange {
-            color: $orange;
-        }
-
-        &.purple {
-            color: $purple;
-        }
-
-        @media only screen and (min-width: 768px) {
-            display: none;     
-        }
-    }
 
     #nightVideo {
         position: absolute;
+        top: 0;
         object-fit: cover;
         height: 100%;
         width: 100%;
-        opacity: 0.2;
+        opacity: 0.3;
+        z-index: -1; 
+    }
+    
+    #nightImage {
+        position: absolute;
+        top: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 0.3;
+        z-index: 2;
+    }
+   
+
+    .bigGreenStar {
+        margin-left: 2.5rem;
+        height: 30%;
     }
 
     .wrapper {
         position: absolute;
-        bottom: 0;
+        bottom: 15%;
         margin: 0;
 
         .introduction {
             font-size: 5vw;
             font-weight: 800;
-            margin-left: 10px;
+            margin-left: 8rem;
             color: $creamGreen;
             z-index: 3;
             position: relative;
         }
         .name {
-            font-size: 19.5vw;
+            font-size: 19vw;
             font-weight: 900;
-            letter-spacing: -0.05em;
-            // margin-bottom: -0.2em; - made the wrapper have a scroll behaviour
-            margin-top: -0.3em;
+            margin: -0.5em -0.1em -0.3em -0.09em;
             color: $neonGreen;
             position: relative;
             z-index: 1;
         }
+
+        .intro-text {
+            margin-left: 8rem;
+            max-width: 50%;
+            z-index: 3;
+            overflow-y: hidden;
+            position: relative;
+        }
+
+        
     }
 
-    .purple-star {
-        content: url("../../assets/purpleIntro.svg");
+    .school {
+        margin-left: 8rem;
+        position: absolute;
+        bottom: 2rem;
+    }
+
+    .smallGreenStar {
+        // content: url("../../assets/purpleIntro.svg");
         left: 3vw;
         bottom: 40vh;
         height: 125px;
         position: absolute;
         z-index: 2;
+        opacity: 1;
         transition: all 1s ease;
 
         &:hover {
@@ -75,17 +95,12 @@
 
     }
 
-    
-        
 
-        .starImg {
-            content:url("../../assets/introOrange.svg");
-            //height: 30vw;
+        .bigGreenStar {
             position: absolute;
-            z-index: 1;
             transition: all 1s ease;
-            left: 33vw;
-            bottom: 8vh;
+            left: 50vw;
+            bottom: 40vh;
             height: 300px;
 
 
@@ -93,7 +108,7 @@
                 transform: scale(1.2);
             }
 
-            @media only screen and (min-width: 768px) {
+            @media only screen and (min-width: 920px) {
                 left: 53vw;
                 bottom: 14vh;
                 height: 450px;   

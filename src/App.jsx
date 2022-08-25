@@ -1,7 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro"
 import Portfolio from "./components/portfolio/Portfolio";
-import Display from "./components/display/Display";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import "./app.scss"
@@ -18,11 +17,10 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Topbar className='' menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
-        <Display/>
         <Portfolio/>
         <About/>
         <Contact/>

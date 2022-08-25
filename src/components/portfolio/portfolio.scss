@@ -22,12 +22,12 @@
 }
 
 .portfolio {
-    background-color: $creamGreen;
+    // background-color: $creamGreen;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    //height: 200vh !important;
+    height: 200vh !important;
 
     .green-star {
         content: url(../../assets/portfolioGreen.svg);
@@ -77,8 +77,8 @@
         font-weight: 900;
         margin-top: 60px;
         margin-bottom: 30px;
-        color: $darkGreen;
-        text-shadow: 5px 5px $orange;
+        color: $neonGreen;
+       
 
         @media only screen and (min-width: 768px) {
             margin-top: 10px;            
