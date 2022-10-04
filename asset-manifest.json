@@ -1,28 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.30f8a8c1.css",
-    "main.js": "/static/js/main.b6ab4786.js",
-    "static/media/curaEarth.svg": "/static/media/curaEarth.2f7974630bd94b6aa85579ff22e89639.svg",
-    "static/media/personalWebsite.svg": "/static/media/personalWebsite.c7e9889f9df80c5c6ef8cb69dbf8f0b6.svg",
-    "static/media/jazz.svg": "/static/media/jazz.a110d198bfa74681d85ea8093afebdfa.svg",
-    "static/media/quest.svg": "/static/media/quest.363997fce41a9d18fdf27903cdc18013.svg",
-    "static/media/mundane.svg": "/static/media/mundane.82857ee87b226a7854dce81c1a334427.svg",
-    "static/media/dulcet.svg": "/static/media/dulcet.01b8599657261d4e2e72c877ef54c9fb.svg",
-    "static/media/grocery.svg": "/static/media/grocery.fa88d6ec95a4c7f7507fa91a8e8aaa4d.svg",
-    "static/media/fancy.svg": "/static/media/fancy.4552b86d29283f1cf737bb72108409bf.svg",
-    "static/media/demon.svg": "/static/media/demon.9f08e620e55b2daeda483b28b31dcd8d.svg",
-    "static/media/csm.svg": "/static/media/csm.e9eed60400ea102a27d5aea97d06ea28.svg",
-    "static/media/genshin.svg": "/static/media/genshin.9abd6baf2d77c8e8d8b0c747a6d9465c.svg",
-    "static/media/train.svg": "/static/media/train.7c96d98ed6e33a3519a83ad55ab5bc8e.svg",
-    "static/media/chinatown.svg": "/static/media/chinatown.cfa095c4c4aa05ab8da6604820f089c5.svg",
-    "static/media/jjk.svg": "/static/media/jjk.ca7d3b77dc4b6e5973c9715f821a886e.svg",
-    "static/media/nana.svg": "/static/media/nana.71eb243e7f9cb8b932a43095ff8fa96a.svg",
-    "static/media/aot.svg": "/static/media/aot.ae3816d7adb485c18720f71176ebf3f0.svg",
-    "static/media/levi.svg": "/static/media/levi.618c61371cb072da738a3e20b633075d.svg",
-    "static/media/house.svg": "/static/media/house.db6e93e7c51a6139eabee8bbe7516bf0.svg",
-    "static/media/mugen.svg": "/static/media/mugen.25961cb14960175d978acb2f7a76ea17.svg",
-    "static/media/spike.svg": "/static/media/spike.490d4d95c0fd85bf36aa385abf938eaa.svg",
-    "static/media/dissolve.svg": "/static/media/dissolve.a47539ad3c52cbe81f9c2a508c72b78d.svg",
+    "main.css": "/static/css/main.213167f8.css",
+    "main.js": "/static/js/main.72e8f4c6.js",
     "static/media/dinetime.png": "/static/media/dinetime.88478b8d54505dbad934.png",
     "static/media/sydehustle.png": "/static/media/sydehustle.12fb69de0c532d670361.png",
     "static/media/questmobile.png": "/static/media/questmobile.e82ea0ef807e537b8bcb.png",
@@ -30,11 +9,11 @@
     "static/media/bigGreenStar.svg": "/static/media/bigGreenStar.50d4aa5e66a1b22b9bc23fa1db0661a7.svg",
     "static/media/smallGreenStar.svg": "/static/media/smallGreenStar.3825caa7face55236c953a85d685e09c.svg",
     "static/media/logostar.svg": "/static/media/logostar.e8bc69ae16d9723b5f593b5b7b4846c1.svg",
-    "main.30f8a8c1.css.map": "/static/css/main.30f8a8c1.css.map",
-    "main.b6ab4786.js.map": "/static/js/main.b6ab4786.js.map"
+    "main.213167f8.css.map": "/static/css/main.213167f8.css.map",
+    "main.72e8f4c6.js.map": "/static/js/main.72e8f4c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f8a8c1.css",
-    "static/js/main.b6ab4786.js"
+    "static/css/main.213167f8.css",
+    "static/js/main.72e8f4c6.js"
   ]
 }
