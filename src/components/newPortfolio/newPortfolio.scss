@@ -1,0 +1,127 @@
+@import "../../global.scss";
+
+.portfolio-new {
+    position: relative;
+    background-color: $creamGreen;
+
+    .project-title {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        color: $neonGreen;
+        position: relative;
+        left: -1%;
+       
+        @media only screen and (min-width: $md) {
+            margin-top: 10px;
+            font-size: 130px;
+            margin-bottom: -20px;          
+        }
+    }
+
+    // ---------------------------- project container ---------------------------------------------------------------------
+
+    .project-container {
+        position: relative;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: row;
+
+        .text-section {
+            position: relative;
+            z-index: 2;
+        }
+
+        p {
+            // max-width: 50vw;
+        }
+    
+        .project-info {
+            padding-left: 10rem;
+
+            &.left-section {
+                padding-left: 2rem;
+            }
+        
+            .case-study {
+                font-family: DM Sans;
+                color: $darkGreen;
+                text-transform: uppercase;
+        
+                @media only screen and (min-width: $md) {
+                    font-size: 20px;         
+                }
+            }
+        
+            .project-header {
+                font-weight: 700;
+                color: $darkGreen;
+        
+                @media only screen and (min-width: $md) {
+                    font-size: 50px;         
+                }
+            }
+        
+            .description {
+                color: $darkGreen;
+                font-weight: 500;
+                @media only screen and (min-width: $md) {
+                    font-size: 30px; 
+                    width: 510px;
+                    margin-bottom: 70px;        
+                }
+            }
+        
+            .explore {
+                color: $darkGreen;
+                font-weight: 700;
+                transition: 0.3s;
+        
+                &:hover {
+                    color: $neonGreen;
+                }
+
+                @media only screen and (min-width: $md) {
+                    // padding-top: 70px;
+                    font-size: 30px; 
+                    width: 500px;        
+                }
+            }
+        }
+        
+        
+        //-------img section ----------------
+        .img-section {
+            max-width: 50vw;
+            position: relative;
+            z-index: 1;
+            transition: 0.3s;
+            
+            @media only screen and (min-width: $xxl) {
+                margin-left: 10rem;   
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+
+
+    // --------------- IDs ------------------------
+
+    .left-project {
+        @media only screen and (max-width: $xxl) {
+            padding-left: 2rem; 
+        }
+    }
+
+
+    
+}

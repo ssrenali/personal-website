@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      bodyFont: ["Arimo"]
+      bodyFont: ["DM Sans"]
     },
     colors: {
       transparent: 'transparent',

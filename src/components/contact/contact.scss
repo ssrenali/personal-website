@@ -3,127 +3,83 @@
 .contact {
     background-color: $darkGreen;
     position: relative;
+    height: 70vh !important;
 
-    .orange-star {
-        content: url("../../assets/orangeContact.svg");
-        position: absolute;
-        max-height: 350px;
-        left: -15vw;
-        z-index: 0;
-        bottom: 1px;
+    h2 {
+        font-size: 10%;
+        font-weight: 750;
 
         @media only screen and (min-width: 768px) {
-            max-height: 420px;
-            left: 5.5vw;
-        }
-    }
-
-    .purple-star {
-        content: url("../../assets/purpleContact.svg");
-        position: absolute;
-        top: 10vh;
-        //max-height: 300px;
-        right: 0vw;
-        
-
-        @media only screen and (min-width: 768px) {
-            top: 15vh;
-            right: 10vw;
+            font-size: 100px;
         }
     }
 
     .textBox {
-        margin-top: 25vh;
-        margin-left: 8vw;
+        margin-top: 8vh;
         z-index: 2;
         position: absolute;
+        line-height: 130%;
+        color: $creamGreen;
+    }
 
-        @media only screen and (min-width: 768px) {
-            margin-left: 10vw;
-            margin-top: 12vh;
-          
-        }
+    .big-star {
+        position: relative;
+        left: 80vw;
+        max-height: 300px;
 
-        .say {
-            color: $creamGreen;
-        }
-
-        h2 {
-            font-size: 14vw;
-            font-weight: 900;
-            text-transform: uppercase;
-            color: $neonGreen;
-
-            @media only screen and (min-width: 768px) {
-                font-size: 12vw;
-            }
+        @media only screen and (min-width: $xxl) {
+            left: 66vw;
+            min-height: 400px;
         }
     }
 
-    .emailBox {
-        margin-top: 46vh;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .small-star {
+        padding-left: 8%;
+        position: absolute;
         bottom: 0;
 
-        @media only screen and (min-width: 768px) {
-            margin-top: 70vh;
+        @media only screen and (min-width: $md) {
+            bottom: -10px;
+            padding-left: 0;
+            transform: scale(0.95);
         }
-        
-        
 
-        a {
-            width: 250px;
-            font-size: 20px;
-            font-weight: 600;
-            height: 35px;
-            line-height:35px;
-            border-radius: 30px;
-            background-color: $creamGreen;
-            color: $darkGreen;
-            font-family:'Inter', sans-serif !important;
-            text-decoration: none;
-
-            &:hover {
-                width: 300px;
-                font-weight: 750;
-                color: $orange;
-                transition: all 500ms ease;
-            }
-            
+        @media only screen and (min-width: $xxl) {
+            bottom: 0;
+            padding-left: 6%;
         }
+    }
+
+    .star-text {
+        color: $neonGreen;
     }
 
     .other-contact {
-        left: 0;
-        right: 0;
-        position: inherit;
-        margin-top: 15px;
         align-items: center;
         text-align: center;
         z-index: 1;
+        position: relative;
+        top: 65%;
         
+
 
         a {
             color: $creamGreen;
             font-size: 30px;
-            text-decoration: none;
             font-weight: 650;
+            padding: 0 3%;
 
             &:hover {
-                transition: 500ms ease;
+                transition: 1s ease;
                 color: $neonGreen;
                 font-weight: 750;
                 
             }
-        }
-        img {
-            content: url("../../assets/smallGreenStar.png");
-            height: 17px;
-            margin: 0 5px -1px ;
+
+            &.star-text {
+                color: $neonGreen;
+            }
+        
         }
     }
 
@@ -140,10 +96,10 @@
             justify-content: center;
             text-align: center;
             text-transform: uppercase;
-            font-family:'Inter', sans-serif !important;
-            color: $creamGreen;
-            font-weight: 500;
+            color: $neonGreen;
+            font-weight: 600;
             max-width: 70%;
+            font-family: 'DM Sans', sans-serif;
 
             @media only screen and (min-width: 768px) {
                 bottom: 0; 

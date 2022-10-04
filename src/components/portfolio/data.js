@@ -49,6 +49,15 @@ export const projectsPortfolio = [
       img: curaEarth,
       description : "A task generator that encourages accessible environmental activism. ʕಠಿᴥಠʔ",
       link: "https://devpost.com/software/cura-planet"
+    },
+    {
+      id: 3,
+      title: "Cura Earth",
+      brief: "UI/UX",
+      tools: "Tools: Figma",
+      img: curaEarth,
+      description : "A task generator that encourages accessible environmental activism. ʕಠಿᴥಠʔ",
+      link: "https://devpost.com/software/cura-planet"
     }
   ];
   

@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import greenLogo from '../../assets/greenLogo.svg'
+import logoStar from '../../assets/logostar.svg'
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
 
@@ -9,9 +9,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
     let NavLinks=[
         {name: "portfolio", link:"/"},
-        {name: "art", link:"/"},
+        {name: "art", link:"https://www.etsy.com/shop/aestronart"},
         {name: "about", link:"/"},
-        {name: "resume", link:"/"},
+        {name: "resume", link:"https://www.figma.com/proto/eowYZpuqqUpv9zoBCo7h4J/resume?page-id=0%3A1&node-id=413%3A2&viewport=-2245%2C-587%2C1.03&scaling=min-zoom"},
       ]
 
   return (
@@ -19,7 +19,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className='md:flex items-center justify-between'></div>
         <div className='flex'>
             <a href="" className="mr-1 p-custom">
-              <img className="h-10" src={greenLogo} alt="" />
+              <img className="h-10" src={logoStar} alt="" />
             </a>
         </div>
         <div className="right md:hidden">
@@ -33,7 +33,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <ul className=' nav-links md:flex md:items-center pt-6 absolute'>
               {
                 NavLinks.map((link) => (
-                  <li key={link.name} className="md:ml-20 text-xl font-semibold text-cream hover:text-orange">
+                  <li key={link.name} className="md:ml-20 text-xl font-semibold text-cream hover:text-light hover:text-bold">
                     <a href={link.link}>{link.name}</a>
                   </li>
                 ))
