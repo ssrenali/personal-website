@@ -3,6 +3,7 @@
 .portfolio-new {
     position: relative;
     background-color: $creamGreen;
+    overflow-y: hidden;
 
     .project-title {
         font-size: 40px;
@@ -30,6 +31,10 @@
         .text-section {
             position: relative;
             z-index: 2;
+            
+            @media only screen and (min-width: $md) {
+                padding-top: 20px;         
+            }
         }
 
         p {

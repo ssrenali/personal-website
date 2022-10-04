@@ -3,10 +3,21 @@ import "./contact.scss"
 import bigGreenStar from '../../assets/bigGreenStar.svg'
 import smallGreenStar from '../../assets/smallGreenStar.svg'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 export default function Contact() {
+
+  useEffect(() => {
+    AOS.init({
+      duration : 1000
+    });
+  }, []);
+
   return (
     <div className="contact" id="contact">
-      <h2 className="textBox">
+      <h2 className="textBox" data-aos="fade-right">
         like what you see? <br/>let's chat!
       </h2>
       <div className="other-contact">
