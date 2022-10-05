@@ -22,9 +22,9 @@ function NewPortfolio() {
     <div className='portfolio-new'>
         {/* ------------------------------------------------------ SYDE HUSTLE --------------------------------------------------------------------------------- */}
          <h1 className='project-title pt-10' data-aos="fade-up">syde hustle</h1>
-        <div className='project-container' data-aos="fade-up">
+        <div className='project-container md:ml-20 md:pl-20 2xl:ml-2' data-aos="fade-up">
             <div className='text-section'>
-                <div className='project-info'>
+                <div className='project-info right-text'>
                     <p className='case-study'>case study</p>
                     <h3 className='project-header'>SYDE Hustle</h3>
                     <p className='description'>A side hustle app for UWaterloo students to find a low commitment means to make money</p>
@@ -58,9 +58,9 @@ function NewPortfolio() {
 
         {/* ------------------------------------------------------ QUEST MOBILE --------------------------------------------------------------------------------- */}
         <h1 className='project-title pt-10'  data-aos="fade-up">quest mobile</h1>
-        <div className='project-container mb-10'  data-aos="fade-up">
+        <div className='project-container md:ml-20 md:pl-20 2xl:ml-2 mb-10'  data-aos="fade-up">
             <div className='text-section'>
-                <div className='project-info'>
+                <div className='project-info right-text'>
                     <p className='case-study'>case study</p>
                     <h3 className='project-header'>Quest Mobile</h3>
                     <p className='description'>Redesigning the student portal for UWaterloo students for quicker, on-the-go access.</p>

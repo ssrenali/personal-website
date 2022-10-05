@@ -51,6 +51,13 @@
             z-index: 2;
 
             @media only screen and (min-width: $md) {
+                font-size: 10rem;
+                // font-size: 170px;
+                padding-left: 100px;
+
+            }
+
+            @media only screen and (min-width: $lg) {
                 font-size: 170px;
                 padding-left: 100px;
 
@@ -71,6 +78,12 @@
             position: relative;
 
             @media only screen and (min-width: $md) {
+                max-width: 50%;
+                margin-left: 110px;
+                font-size: 2rem;
+            }
+
+            @media only screen and (min-width: $lg) {
                 max-width: 60%;
                 margin-left: 110px;
             }
@@ -89,8 +102,10 @@
             position: relative;
 
             @media only screen and (min-width: $md) {
-                margin-left: 40rem;
+                margin-left: 48vw;
+                margin-right: 8%;
                 max-width: 50%;
+                font-size: 2rem;
             }
 
             @media only screen and (min-width: $xxl) {
@@ -109,7 +124,7 @@
         
     
         @media only screen and (min-width: $md) {
-            margin-left: 40rem;
+            margin-left: 48vw;
             bottom: 3rem;
             font-size: 17px;
 

@@ -27,25 +27,32 @@
         overflow-y: hidden;
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
         .text-section {
             position: relative;
             z-index: 2;
             
             @media only screen and (min-width: $md) {
-                padding-top: 20px;         
+                padding-top: 20px;
+                //width: 60%;      
             }
         }
 
         p {
-            // max-width: 50vw;
+            max-width: 50vw;
         }
     
         .project-info {
-            padding-left: 10rem;
+            margin-left: 10%;
 
             &.left-section {
                 padding-left: 2rem;
+            }
+
+            @media only screen and (min-width: $xxl) {
+                padding-left: 2rem;        
             }
         
             .case-study {
@@ -71,11 +78,17 @@
                 color: $darkGreen;
                 font-weight: 500;
                 @media only screen and (min-width: $md) {
-                    font-size: 30px; 
-                    width: 510px;
+                    font-size: 1.75rem; 
+                    width: 70%;
                     margin-bottom: 70px;        
                 }
+
+                @media only screen and (min-width: $xxl) {
+                    font-size: 30px; 
+                    // width: 70%;      
+                }
             }
+
         
             .explore {
                 color: $darkGreen;
@@ -87,9 +100,14 @@
                 }
 
                 @media only screen and (min-width: $md) {
-                    // padding-top: 70px;
+                    font-size: 1.75rem; 
+                    width: 50%;
+                    margin-bottom: 70px;        
+                }
+
+                @media only screen and (min-width: $xxl) {
                     font-size: 30px; 
-                    width: 500px;        
+                    width: 510px;      
                 }
             }
         }
@@ -102,9 +120,9 @@
             z-index: 1;
             transition: 0.3s;
             
-            @media only screen and (min-width: $xxl) {
-                margin-left: 10rem;   
-            }
+            // @media only screen and (min-width: $xxl) {
+            //     margin-left: 10rem;   
+            // }
 
             &:hover {
                 transform: scale(1.05);
@@ -126,6 +144,7 @@
             padding-left: 2rem; 
         }
     }
+
 
 
     
