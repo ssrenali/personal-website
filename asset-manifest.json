@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b1fdfc2.css",
-    "main.js": "/static/js/main.54baa5f5.js",
+    "main.css": "/static/css/main.7f3070e6.css",
+    "main.js": "/static/js/main.c51b40e5.js",
     "static/media/dinetime.png": "/static/media/dinetime.88478b8d54505dbad934.png",
     "static/media/sydehustle.png": "/static/media/sydehustle.12fb69de0c532d670361.png",
     "static/media/questmobile.png": "/static/media/questmobile.e82ea0ef807e537b8bcb.png",
@@ -9,11 +9,11 @@
     "static/media/bigGreenStar.svg": "/static/media/bigGreenStar.50d4aa5e66a1b22b9bc23fa1db0661a7.svg",
     "static/media/smallGreenStar.svg": "/static/media/smallGreenStar.3825caa7face55236c953a85d685e09c.svg",
     "static/media/logostar.svg": "/static/media/logostar.e8bc69ae16d9723b5f593b5b7b4846c1.svg",
-    "main.0b1fdfc2.css.map": "/static/css/main.0b1fdfc2.css.map",
-    "main.54baa5f5.js.map": "/static/js/main.54baa5f5.js.map"
+    "main.7f3070e6.css.map": "/static/css/main.7f3070e6.css.map",
+    "main.c51b40e5.js.map": "/static/js/main.c51b40e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b1fdfc2.css",
-    "static/js/main.54baa5f5.js"
+    "static/css/main.7f3070e6.css",
+    "static/js/main.c51b40e5.js"
   ]
 }
