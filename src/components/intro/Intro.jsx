@@ -28,7 +28,7 @@ const Intro = () => {
                     a designer, engineer, and artist, passionate about crafting engaging experiences through empathy and design.
                 </h1>
             </div>
-            <h3 className='school font-bold text-light text-sm'>ui/ux designer @ cibc ✭ systems design engineering @ university of waterloo</h3>
+            <h3 className='school font-bold text-cream text-sm'>ui/ux designer @ cibc ✭ systems design engineering @ university of waterloo</h3>
         </div>
     </div>
   )

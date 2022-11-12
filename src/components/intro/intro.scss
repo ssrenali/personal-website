@@ -45,13 +45,13 @@
             padding-left: 20px;
             // margin: -0.5em -0.1em -0.3em -0.09em;
             margin-top: -0.4em;
-            margin-bottom: 7rem;
+            //margin-bottom: 7rem;
             color: $creamGreen;
             position: relative;
             z-index: 2;
 
             @media only screen and (min-width: $md) {
-                font-size: 10rem;
+                font-size: 12vw;
                 // font-size: 170px;
                 padding-left: 100px;
 
@@ -60,6 +60,7 @@
             @media only screen and (min-width: $lg) {
                 font-size: 170px;
                 padding-left: 100px;
+                margin-bottom: 7rem;
 
             }
 
@@ -136,29 +137,7 @@
         }
     }
 
-    // .school {
-    //     position: absolute;
-    //     bottom: 18%;
 
-    //     @media only screen and (min-width: $md) {
-    //         bottom: 3rem;
-    //         font-size: 17px;
-    //         bottom: 18%;
-    //         white-space: nowrap;
-    //         line-height: 220px;
-    //         overflow: hidden;
-    //         animation: animate 10s linear infinite;
-    //     }
-    //   }
-      
-    //   @keyframes animate {
-    //     0% {
-    //       transform: translate(0, -50%);
-    //     }
-    //     100% {
-    //       transform: translate(-50%, -50%);
-    //     }
-    //   }
 
     .smallGreenStar {
         left: 3vw;
@@ -172,6 +151,7 @@
         top: 65%;
         z-index: 1;
         position: relative;
+        
 
         &:hover {
             transform: scale(1.3);
