@@ -27,9 +27,14 @@ const Intro = () => {
                 <h1 className='text-cream font-bold intro-text decription-text text-lg lg:text-4xl' data-aos="fade-right">
                     a designer, engineer, and artist, passionate about crafting engaging experiences through empathy and design.
                 </h1>
+                <h3 className='school font-bold text-cream text-sm'>ui/ux designer @ cibc ✭ systems design engineering @ university of waterloo</h3>
+                <h2 className='arrow-down'>&#8595;</h2>
+                {/* <hr />
+                <h3>scroll down</h3> */}
+
             </div>
-            <h3 className='school font-bold text-cream text-sm'>ui/ux designer @ cibc ✭ systems design engineering @ university of waterloo</h3>
         </div>
+        
     </div>
   )
 }
