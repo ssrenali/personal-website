@@ -1,16 +1,17 @@
 import "./topbar.scss"
 import logoStar from '../../assets/logostar.svg'
+import { Link } from "react-router-dom";
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+export default function Topbar({ menuOpen, setMenuOpen }, props ) {
 
     const handleClick = () => {
         setMenuOpen(!menuOpen);
     }
 
     let NavLinks=[
-        {name: "portfolio", link:"/"},
-        {name: "art", link:"https://www.etsy.com/shop/aestronart"},
-        {name: "about", link:"/"},
+        {name: "work", link:"/"},
+        {name: "play", link:"/play"},
+        {name: "about", link:"/about"},
         {name: "resume", link:"https://www.figma.com/proto/eowYZpuqqUpv9zoBCo7h4J/resume?page-id=0%3A1&node-id=413%3A2&viewport=-2245%2C-587%2C1.03&scaling=min-zoom"},
       ]
 
@@ -33,8 +34,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <ul className=' nav-links md:flex md:items-center pt-6 absolute'>
               {
                 NavLinks.map((link) => (
-                  <li key={link.name} className="md:ml-20 text-xl font-semibold text-cream hover:text-light hover:text-bold">
-                    <a href={link.link}>{link.name}</a>
+                  <li key={link.name} className="hero-text md:ml-20 text-xl font-semibold hover:text-bold">
+                    <a><Link to={link.link}>{link.name}</Link></a>
                   </li>
                 ))
                 }

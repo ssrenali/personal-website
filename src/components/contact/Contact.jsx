@@ -18,9 +18,9 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <h2 className="textBox" data-aos="fade-right">
-        like what you see? <br/>let's chat!
+        like what you see? <br/>let's chat! ✭
       </h2>
-      <div className="other-contact">
+      {/* <div className="other-contact">
           <a href="mailto:s868li@uwaterloo.ca">email</a>
           <a href="" className="star-text">✭</a>
           <a href="https://www.linkedin.com/in/sserenali/">linkedin</a>
@@ -29,14 +29,42 @@ export default function Contact() {
           <a href="" className="star-text">✭</a>
           <a href="https://github.com/ssrenali">github</a>
 
-      </div>
+      </div> */}
       <img src={bigGreenStar} className='big-star' alt="" />
-      <img src={smallGreenStar} className='small-star' alt="" />
-      <div className="copyright">
-        <p>
-          serena li ✭ © 2022 <br/> ✭ designed and developed with love ✭
-        </p>
+      {/* <img src={smallGreenStar} className='small-star' alt="" /> */}
+      
+      <div className="contact-info">
+        <div className="empty-section">
+        </div>
+        <div className="contact-section">
+          <p>
+            serena li ✭ © 2022
+          </p>
+          <p>
+            designed and developed with love
+          </p>
+        </div>
+
+        <div className="contact-section">
+          <p>
+            <a href="mailto:s868li@uwaterloo.ca">email</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/sserenali/">linkedin</a>
+          </p>
+        </div>
+
+        <div className="contact-section">
+          <p>
+            <a href="https://www.etsy.com/shop/aestronart">etsy</a>
+          </p>
+          <p>
+            <a href="https://github.com/ssrenali">github</a>
+          </p>
+        </div>     
       </div>
+
+      {/* <hr/> */}
     </div>
     
   )

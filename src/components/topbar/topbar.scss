@@ -22,6 +22,14 @@
     }
 }
 
+.hero-text {
+    // text-cream hover:text-light
+    color: $creamGreen;
+    &:hover {
+        color: $neonGreen;
+    }
+}
+
 .topbar {
     color: $creamGreen;
     width: 100%;

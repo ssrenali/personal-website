@@ -1,27 +1,24 @@
 import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro"
-import Contact from "./components/contact/Contact";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
-import NewPortfolio from "./components/newPortfolio/NewPortfolio";
+import Landing from "./components/landing/Landing";
+
+import { Routes, Route, Link } from "react-router-dom"; 
+import Art from "./components/art/Art";
+import About from "./components/about/About";
 
 
 function App() {
 
-  const [menuOpen, setMenuOpen] = useState(false);
-
-
   return (
     <div className="app">
-      <Topbar className='' menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <div className="sections">
-        <Intro/>
-        {/* <Portfolio/> */}
-        <NewPortfolio/>
-        <Contact/>
-      </div>
+      <Routes>
+        <Route exact path='/' element={<Landing/>}/>
+        <Route exact path='/play' element={<Art/>}/>
+        <Route exact path='/about' element={<About/>}/>
+      </Routes>
+      
     </div>
   );
 }
